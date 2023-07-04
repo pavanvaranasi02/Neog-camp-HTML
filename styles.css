@@ -42,3 +42,13 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+/** Lists **/
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
