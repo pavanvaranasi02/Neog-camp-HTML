@@ -75,3 +75,27 @@ body {
 .navigation .link-active{
     font-weight: bold;
 }
+
+/** Header **/
+
+.heading {
+    padding: 2rem;
+}
+
+.heading-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.heading .heading-text {
+    padding: 1rem;
+    color: darkgray;
+    text-align: center;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+
+}
+
