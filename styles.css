@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #86efac;
+    --offset-color: #f3f4f6;
 }
 
 hr {
@@ -97,5 +98,20 @@ body {
 .heading-inverted {
     color: var(--primary-color);
 
+}
+
+/** Sections **/
+
+.section {
+    padding: 1rem;
+}
+
+.section h3 {
+    text-align: center;
+    text-align: justify;
+}
+
+.ofw {
+    background-color: var(--offset-color);
 }
 
