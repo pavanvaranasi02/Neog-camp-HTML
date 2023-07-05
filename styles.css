@@ -37,6 +37,13 @@ body {
     color: white;
 }
 
+.link-primary-2 {
+    background-color: #022c22;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    color: white;
+}
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
@@ -62,7 +69,6 @@ body {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.3rem;
 }
 
 .navigation .nav-pills {
@@ -84,7 +90,8 @@ body {
 }
 
 .heading-img {
-    max-width: 400px;
+    max-width: 300px;
+    max-height: 150px;
     display: block;
     margin: auto;
 }
@@ -129,8 +136,21 @@ body {
 
 .footer-heading {
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .footer .link {
     color: white;
+}
+
+.img-icon {
+    max-height: 22px;
+    vertical-align: middle;
+    position: absolute;
+
+}
+
+.hr-new{
+    /* padding: 1rem; */
+    margin: 0.5rem 20rem;
 }
